@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+#toggle:checked ~ label div .toggle-dot {
+    @apply translate-x-5; 
+}
+
+
+    #cube:hover {
+filter: invert(76%) sepia(28%) saturate(7129%) hue-rotate(360deg) brightness(103%) contrast(92%);
+    }
+
+
+
+    @layer utilities {
+        @variants dark {
+            .filter-light {
+                filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(269deg) brightness(104%) contrast(103%);
+                    }
+        }
+    }
