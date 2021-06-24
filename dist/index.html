@@ -24,7 +24,7 @@
             
 
           </div>
-          <div class="hidden lg:block">
+          <div class="hidden md:block">
             <div class="flex space-x-4  h-10 justify-center items-center flex-shrink">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <div class="relative w-8">
@@ -36,8 +36,8 @@
                 
               </div>
 
-              <div class="flex h-12 justify-center items-center space-x-6 font-sans">
-                <div class="flex flex-shrink">
+              <div class="flex h-12 justify-center items-center space-x-2 lg:space-x-6 font-sans">
+                <div class="flex ">
                   <a href="#"
                     class="flex space-x-0  text-sm items-center transition-all" id="cube">Buy
                     Crypto<img class="w-4 h-6  transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="Buy Crypto">
@@ -66,6 +66,12 @@
                       class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="Finance">
                   </a>
                 </div>
+
+                <div class="flex">
+                  <a href="https://www.binance.com/en/nft/home"
+                    class="flex space-x-0  text-sm transition-all" id="cube">NFT
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -73,11 +79,11 @@
         </div>
 
         <div
-          class="absolute inset-y-0 right-0 flex items-center pr-2 lg:static lg:inset-auto lg:ml-6 lg:pr-0 lg:hidden">
+          class="absolute inset-y-0 right-0 flex items-center pr-2 xl:static xl:inset-auto xl:ml-6 xl:pr-0 xl:hidden">
           <!-- Mobile menu button-->
           <button type="button"
             class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-yellow-500  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white dark:filter-light"
-            aria-controls="mobile-menu" aria-expanded="false">
+            aria-controls="mobile-menu" aria-expanded="false" >
             <span class="sr-only">Open main menu</span>
             <!--
                 Icon when menu is closed.
@@ -99,8 +105,8 @@
           </button>
         </div>
 
-        <div class="  lg:mr-4">
-          <input type="checkbox" name="" id="toggle" class="hidden " />
+        <div class="lg:mr-4">
+          <input type="checkbox" name="" id="toggle" class="hidden" />
          <label for="toggle">
           <div class="w-12 h-6 flex items-center rounded-full bg-gray-200 dark:bg-gray-500 cursor-pointer p-1">
             <div class=" toggle-dot w-5 h-5 rounded-full shadow-lg bg-white transform duration-300 ease-in-out"></div>
@@ -112,12 +118,12 @@
           <a href="#" class=" hover:text-yellow-500 text-sm hidden lg:flex cursor-pointer">Log In</a>
           <button
             class=" text-sm cursor-pointer px-4 flex-shrink py-2 rounded-md bg-yellow-500 hover:bg-yellow-400 shadow-md text-black">Register</button>
-          <a href="#" class=" hover:text-yellow-500 text-sm cursor-pointer hidden lg:flex">Downloads</a>
+          <a href="#" class=" hover:text-yellow-500 text-sm cursor-pointer hidden xl:flex">Downloads</a>
 
           <div class="flex">
-            <h2 class=" hover:text-yellow-500 text-sm self-center cursor-pointer mr-2 hidden lg:flex">English</h2>
-            <span class="text-gray-400 hidden lg:flex">|</span> <span
-              class="ml-2 cursor-pointer  hover:text-yellow-500 hidden lg:flex">USD</span>
+            <h2 class=" hover:text-yellow-500 text-sm self-center cursor-pointer mr-2 hidden xl:flex">English</h2>
+            <span class="text-gray-400 hidden xl:flex">|</span> <span
+              class="ml-2 cursor-pointer  hover:text-yellow-500 hidden xl:flex">USD</span>
           </div>
         </div>
       </div>
@@ -391,34 +397,78 @@
         <h2 class="text-2xl lg:text-4xl font-semibold">Trade. Anywhere.</h2>
         <p class="text-sm text-gray-600 dark:text-white">Compatible with multiple devices, start trading with safety and convenience.</p>
       </div>
-      <div class="flex flex-col lg:flex-row lg:gap-16 ">
-        <div class="justify-center items-center mx-auto lg:mx-0 lg:w-6/12 ">
+      <div class="flex flex-col md:flex-row lg:gap-12 xl:gap-24 w-full">
+        <div class="justify-center items-center mx-auto md:mx-0 md:w-7/12 lg:w-6/12 ">
           <div class="relative flex justify-start items-center ">
             <img src="../img/tablet.png" alt="Tablet" class="hidden lg:flex w-full">
             <img src="../img/phone.png" alt="" class=" mx-auto flex justify-center items-center lg:absolute lg:inset-x-32 lg:hidden">
           </div>
         </div>
 
-          <div class="w-full lg:w-5/12 space-y-8">
-            <div class="h-40 mx-auto lg:mx-0 flex flex-col lg:flex-row ">
-              <div class="w-40 block mx-auto lg:mx-0">
+          <div class="w-full md:w-4/12 lg:5/12 flex flex-col justify-center items-start lg:justify-start space-y-8 ">
+            <div class="h-auto mx-auto lg:mx-0 flex flex-col md:flex-row ">
+              <div class="w-40 block mx-auto md:mx-0">
                 <img src="../img/qr-code.png" alt="" class="dark:filter-light ">
               </div>
   
-              <div class="flex flex-col space-y-2 justify-center items-start mx-auto lg:mx-0">
+              <div class="flex flex-col space-y-2 justify-center items-start mx-auto md:mx-0">
                 <h4 class="text-sm text-gray-600 dark:text-white">Scan to Download</h4>
                 <p class="text-xs text-gray-400 dark:text-white">iOS & Android</p>
               </div>
             </div>
-           
-          </div>
-<div class="grid grid-cols-3 grid-rows-4 gap-4 space-y-4">
 
-</div>
+            <div class="w-4/5 md:w-full  mx-auto">
+              <div class="grid grid-cols-2 xl:grid-cols-3 gap-8 md:gap-4 xl:gap-x-4 xl:gap-y- mx-auto ">
+                <div class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/icons8-apple-logo-26.png" alt="Apple Icon" class="w-6 dark:filter-light ">
+                  <h3 class="text-md xl:text-lg">App Store</h3>
+                </div>
+
+                <div class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/apk.png" alt="APK Icon" class="w-6 dark:filter-light">
+                  <h3 class="text-md xl:text-lg">Android APK</h3>
+                </div>
+              
+                <div class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/google.png" alt="Google Icon" class="w-6 dark:filter-light">
+                  <h3 class="text-md xl:text-lg">Google Play</h3>
+                </div>
+
+                <div class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/mac.png" alt="Mac Icon" class="w-6 dark:filter-light">
+                  <h3 class="text-md xl:text-lg">Mac OS</h3>
+                </div>
+
+                <div class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/windows.png" alt="Windows Icon" class="w-6 dark:filter-light">
+                  <h3 class="text-md xl:text-lg">Windows</h3>
+                </div>
+
+                <div class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/linux.png" alt="Linux Icon" class="w-6 dark:filter-light">
+                  <h3 class="text-md xl:text-lg">Linux</h3>
+                </div>
+
+                <div class="flex  lg:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                  <img src="../img/api.png" alt="Api Icon" class="w-6 dark:filter-light">
+                  <h3 class="text-md xl:text-lg">API</h3>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
         
 </div>
      
-
+<div class="w-60 mx-auto md:mt-0 lg:mt-8">
+  <a href="https://www.binance.com/en/download" class="flex justify-center items-center space-x-1" id="cube">
+    <h4 class="text-sm text-gray-600 dark:text-white">More Download Options</h4>
+    <img src="../img/right.png" alt="Right" class="dark:filter-light">
+  </a>
+  
+</div>
     </section>
   </main>
 
