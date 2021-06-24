@@ -1,75 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./dist/style.css">
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
   <title>Bitcoin Exchange | Cryptocurrency Exchange | Binance</title>
 </head>
 
 <body class="font-sans dark:bg-gray-900 dark:text-gray-100">
-  <!-- This example requires Tailwind CSS v2.0+ -->
+  
   <nav class="bg-white shadow-lg dark:bg-gray-800 dark:text-gray-100">
     <div class="mx-auto">
       <div class="relative flex items-center justify-between h-16">
         <div class="flex-1 flex items-center justify-start">
           <div class="flex-shrink-0 flex items-center w-44">
             <a href="#" class="cursor-pointer  h-4 flex justify-center items-center">
-              <img class="block h-auto w-auto "  src="../img/Binance-Logo.wine.svg" alt="Workflow">
+              <img class="block h-auto w-auto " src="../img/Binance-Logo.wine.svg" alt="Workflow">
             </a>
-            
+
 
           </div>
           <div class="hidden md:block">
             <div class="flex space-x-4  h-10 justify-center items-center flex-shrink">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <div class="relative w-8">
-                <a href="#" class="flex transition-all" id="cube"><img  class="w-6 h-6 dark:filter-light"
+                <a href="#" class="flex transition-all" id="cube"><img class="w-6 h-6 dark:filter-light"
                     src="../img/cube.png" alt="Cube">
-                    <img class="absolute inset-x-5 w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="">
+                  <img class="absolute inset-x-5 w-4 h-6 transform hover:rotate-180 dark:filter-light"
+                    src="../img/sort-down.png" alt="">
                 </a>
 
-                
+
               </div>
 
               <div class="flex h-12 justify-center items-center space-x-2 lg:space-x-6 font-sans">
                 <div class="flex ">
-                  <a href="#"
-                    class="flex space-x-0  text-sm items-center transition-all" id="cube">Buy
-                    Crypto<img class="w-4 h-6  transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="Buy Crypto">
+                  <a href="#" class="flex space-x-0  text-sm items-center transition-all" id="cube">Buy
+                    Crypto<img class="w-4 h-6  transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png"
+                      alt="Buy Crypto">
                   </a>
                 </div>
                 <div class="flex">
-                  <a href="https://www.binance.com/en/markets"
-                    class="flex space-x-0  text-sm transition-all" id="cube">Markets
+                  <a href="https://www.binance.com/en/markets" class="flex space-x-0  text-sm transition-all"
+                    id="cube">Markets
                   </a>
                 </div>
                 <div class="flex">
-                  <a href="#"
-                    class="flex space-x-0  text-sm items-center transition-all" id="cube">Trades<img
-                      class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="Trades">
+                  <a href="#" class="flex space-x-0  text-sm items-center transition-all" id="cube">Trades<img
+                      class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png"
+                      alt="Trades">
                   </a>
                 </div>
                 <div class="flex">
-                  <a href="#"
-                    class="flex space-x-0  text-sm items-center transition-all" id="cube">Derivative<img
-                      class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="Derivative">
+                  <a href="#" class="flex space-x-0  text-sm items-center transition-all" id="cube">Derivative<img
+                      class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png"
+                      alt="Derivative">
                   </a>
                 </div>
                 <div class="flex">
-                  <a href="#"
-                    class="flex space-x-0  text-sm items-center transition-all" id="cube">Finance<img
-                      class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png" alt="Finance">
+                  <a href="#" class="flex space-x-0  text-sm items-center transition-all" id="cube">Finance<img
+                      class="w-4 h-6 transform hover:rotate-180 dark:filter-light" src="../img/sort-down.png"
+                      alt="Finance">
                   </a>
                 </div>
 
                 <div class="flex">
-                  <a href="https://www.binance.com/en/nft/home"
-                    class="flex space-x-0  text-sm transition-all" id="cube">NFT
+                  <a href="https://www.binance.com/en/nft/home" class="flex space-x-0  text-sm transition-all"
+                    id="cube">NFT
                   </a>
                 </div>
               </div>
@@ -83,7 +84,7 @@
           <!-- Mobile menu button-->
           <button type="button"
             class="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-yellow-500  focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white dark:filter-light"
-            aria-controls="mobile-menu" aria-expanded="false" >
+            aria-controls="mobile-menu" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!--
                 Icon when menu is closed.
@@ -107,14 +108,14 @@
 
         <div class="lg:mr-4">
           <input type="checkbox" name="" id="toggle" class="hidden" />
-         <label for="toggle">
-          <div class="w-12 h-6 flex items-center rounded-full bg-gray-200 dark:bg-gray-500 cursor-pointer p-1">
-            <div class=" toggle-dot w-5 h-5 rounded-full shadow-lg bg-white transform duration-300 ease-in-out"></div>
-          </div>
-         </label>
+          <label for="toggle">
+            <div class="w-12 h-6 flex items-center rounded-full bg-gray-200 dark:bg-gray-500 cursor-pointer p-1">
+              <div class=" toggle-dot w-5 h-5 rounded-full shadow-lg bg-white transform duration-300 ease-in-out"></div>
+            </div>
+          </label>
         </div>
         <div class=" h-10 flex  items-center justify-center pr-8 md:pr-10 space-x-6 md:space-x-4">
-        
+
           <a href="#" class=" hover:text-yellow-500 text-sm hidden lg:flex cursor-pointer">Log In</a>
           <button
             class=" text-sm cursor-pointer px-4 flex-shrink py-2 rounded-md bg-yellow-500 hover:bg-yellow-400 shadow-md text-black">Register</button>
@@ -148,7 +149,7 @@
 
   <!-- Main Section -->
   <main class="container mb-4  w-11/12  lg:w-4/5 mx-auto h-auto ">
-   
+
     <!-- Introductory Section -->
 
     <section class="mt-16 md:mt-24">
@@ -226,27 +227,29 @@
         </div>
       </div>
 
-      
+
     </section>
 
     <!-- Announcement -->
     <div class="mt-16 flex space-x-2 flex-wrap flex-shrink items-center ">
       <div class="flex gap-2 cursor-pointer" id="cube">
-        <a href="https://www.binance.com/en/support/announcement/8e68954449bf456295fff157eca59207" class="flex dark:filter-light">
+        <a href="https://www.binance.com/en/support/announcement/8e68954449bf456295fff157eca59207"
+          class="flex dark:filter-light">
           <img src="../img/mega.png" alt="Megaphone">
-          </a>
-          <h3 class="text-gray-600 text-xs lg:text-sm dark:text-white">Wallet Maintenance for Tron Network (TRX) - 2021-06-24</h3>
-          <h3 class="text-gray-600 text-xs md:text-sm dark:text-white">06-22</h3>
+        </a>
+        <h3 class="text-gray-600 text-xs lg:text-sm dark:text-white">Wallet Maintenance for Tron Network (TRX) -
+          2021-06-24</h3>
+        <h3 class="text-gray-600 text-xs md:text-sm dark:text-white">06-22</h3>
       </div>
-     
+
 
       <div class="flex items-center space-x-2">
-        <span class="text-sm text-gray-300">|</span> 
+        <span class="text-sm text-gray-300">|</span>
         <a class="flex space-x-1 cursor-pointer" id="cube">
           <h3 class="text-gray-600 text-xs md:text-sm dark:text-white">More</h3>
           <img src="../img/right.png" class="w-3 h-3 my-auto dark:filter-light" alt="Right">
         </a>
-       
+
       </div>
     </div>
 
@@ -257,7 +260,7 @@
         <h2 class="text-2xl lg:text-4xl font-semibold">Market trend</h2>
       </div>
       <div class="space-y-1">
-        
+
         <div class="grid grid-cols-3 lg:grid-cols-6 items-center px-6 py-4">
           <div class="col-start-1 col-span-2 text-sm lg:text-lg">Name</div>
           <div class=" text-sm lg:text-lg ">Last Price</div>
@@ -267,8 +270,9 @@
           </div>
         </div>
 
-        
-        <div class="grid grid-cols-3 lg:grid-cols-6 items-center dark:hover:bg-gray-800 hover:bg-gray-100 transition duration-200 px-6 py-4">
+
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 items-center dark:hover:bg-gray-800 hover:bg-gray-100 transition duration-200 px-6 py-4">
           <div class="col-start-1 col-span-2 text-xs lg:text-lg ">
             <div class="flex space-x-2 h-10">
               <img src="../img/bnb.png" alt="" class=" flex justify-center items-center">
@@ -276,7 +280,7 @@
                 <h2 class="text-lg lg:text-xl dark:text-white font-medium text-gray-900 ">BNB</h2>
                 <h2 class="text-md lg:text-xl dark:text-white text-gray-600 ">BNB</h2>
               </div>
-              
+
             </div>
           </div>
           <div class=" text-md lg:text-xl dark:text-white font-medium text-gray-700 ">$271.85</div>
@@ -286,7 +290,8 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
           <div class="col-start-1 col-span-2 text-xs lg:text-lg ">
             <div class="flex space-x-2 h-10">
               <img src="../img/btc.png" alt="" class=" flex justify-center items-center">
@@ -294,7 +299,7 @@
                 <h2 class="text-lg lg:text-xl dark:text-white font-medium text-gray-900">BTC</h2>
                 <h2 class="text-md lg:text-xl dark:text-white text-gray-600 ">Bitcoin</h2>
               </div>
-              
+
             </div>
           </div>
           <div class=" text-md lg:text-xl dark:text-white text-gray-700 font-medium">$31,732.24</div>
@@ -305,7 +310,8 @@
         </div>
 
 
-        <div class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
           <div class="col-start-1 col-span-2 text-xs lg:text-lg ">
             <div class="flex space-x-2 h-10">
               <img src="../img/eth.png" alt="" class=" flex justify-center items-center">
@@ -313,7 +319,7 @@
                 <h2 class="text-lg lg:text-xl dark:text-white font-medium text-gray-900">ETH</h2>
                 <h2 class="text-md lg:text-xl dark:text-white text-gray-600 ">Ethereum</h2>
               </div>
-              
+
             </div>
           </div>
           <div class=" text-md lg:text-xl dark:text-white text-gray-700 font-medium">$1,886.71</div>
@@ -321,9 +327,10 @@
           <div class="col-start-5 col-span-2 text-xs lg:text-lg ">
             <h2 class="hidden lg:flex justify-end"><img src="../img/graph.png" alt=""></h2>
           </div>
-        </div>     
+        </div>
 
-        <div class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
           <div class="col-start-1 col-span-2 text-xs lg:text-lg ">
             <div class="flex space-x-2 h-10">
               <img src="../img/bch.png" alt="" class=" flex justify-center items-center">
@@ -331,7 +338,7 @@
                 <h2 class="text-lg lg:text-xl dark:text-white font-medium text-gray-900">BCH</h2>
                 <h2 class="text-md lg:text-xl dark:text-white text-gray-600 ">Bitcoin Cash</h2>
               </div>
-              
+
             </div>
           </div>
           <div class=" text-md lg:text-xl text-gray-700 dark:text-white font-medium">$438.78</div>
@@ -339,9 +346,10 @@
           <div class="col-start-5 col-span-2 text-xs lg:text-lg ">
             <h2 class="hidden lg:flex justify-end"><img src="../img/graph.png" alt=""></h2>
           </div>
-        </div> 
+        </div>
 
-        <div class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
           <div class="col-start-1 col-span-2 text-xs lg:text-lg ">
             <div class="flex space-x-2 h-10">
               <img src="../img/fil.png" alt="" class=" flex justify-center items-center">
@@ -349,7 +357,7 @@
                 <h2 class="text-lg lg:text-xl dark:text-white font-medium text-gray-900">FIL</h2>
                 <h2 class="text-md lg:text-xl dark:text-white text-gray-600 ">Filecoin</h2>
               </div>
-              
+
             </div>
           </div>
           <div class=" text-md lg:text-xl dark:text-white text-gray-700 font-medium ml-1">$53.74</div>
@@ -357,9 +365,10 @@
           <div class="col-start-5 col-span-2 text-xs lg:text-lg ">
             <h2 class="hidden lg:flex justify-end"><img src="../img/graph.png" alt=""></h2>
           </div>
-        </div>     
+        </div>
 
-        <div class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
+        <div
+          class="grid grid-cols-3 lg:grid-cols-6 items-center hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200 px-6 py-4">
           <div class="col-start-1 col-span-2 text-xs lg:text-lg ">
             <div class="flex space-x-2 h-10">
               <img src="../img/ada.png" alt="" class=" flex justify-center items-center">
@@ -367,7 +376,7 @@
                 <h2 class="text-lg lg:text-xl dark:text-white font-medium text-gray-900">ADA</h2>
                 <h2 class="text-md lg:text-xl dark:text-white text-gray-600 ">Cardano</h2>
               </div>
-              
+
             </div>
           </div>
           <div class=" text-md lg:text-xl dark:text-white text-gray-700 font-medium">$1.16</div>
@@ -382,12 +391,12 @@
             <h4 class="text-sm text-gray-600 dark:text-white">View More Markets</h4>
             <img src="../img/right.png" alt="Right" class="dark:filter-light">
           </a>
-          
+
         </div>
 
       </div>
-    
-      
+
+
     </section>
 
     <!-- Download Section -->
@@ -395,80 +404,89 @@
     <section class="w-full mt-32">
       <div class="space-y-4 lg:mb-20">
         <h2 class="text-2xl lg:text-4xl font-semibold">Trade. Anywhere.</h2>
-        <p class="text-sm text-gray-600 dark:text-white">Compatible with multiple devices, start trading with safety and convenience.</p>
+        <p class="text-sm text-gray-600 dark:text-white">Compatible with multiple devices, start trading with safety and
+          convenience.</p>
       </div>
       <div class="flex flex-col md:flex-row lg:gap-12 xl:gap-24 w-full">
         <div class="justify-center items-center mx-auto md:mx-0 md:w-7/12 lg:w-6/12 ">
           <div class="relative flex justify-start items-center ">
             <img src="../img/tablet.png" alt="Tablet" class="hidden lg:flex w-full">
-            <img src="../img/phone.png" alt="" class=" mx-auto flex justify-center items-center lg:absolute lg:inset-x-32 lg:hidden">
+            <img src="../img/phone.png" alt=""
+              class=" mx-auto flex justify-center items-center lg:absolute lg:inset-x-32 lg:hidden">
           </div>
         </div>
 
-          <div class="w-full md:w-4/12 lg:5/12 flex flex-col justify-center items-start lg:justify-start space-y-8 ">
-            <div class="h-auto mx-auto lg:mx-0 flex flex-col md:flex-row ">
-              <div class="w-40 block mx-auto md:mx-0">
-                <img src="../img/qr-code.png" alt="" class="dark:filter-light ">
-              </div>
-  
-              <div class="flex flex-col space-y-2 justify-center items-start mx-auto md:mx-0">
-                <h4 class="text-sm text-gray-600 dark:text-white">Scan to Download</h4>
-                <p class="text-xs text-gray-400 dark:text-white">iOS & Android</p>
-              </div>
+        <div class="w-full md:w-4/12 lg:5/12 flex flex-col justify-center items-start lg:justify-start space-y-8 ">
+          <div class="h-auto mx-auto lg:mx-0 flex flex-col md:flex-row ">
+            <div class="w-40 block mx-auto md:mx-0">
+              <img src="../img/qr-code.png" alt="" class="dark:filter-light ">
             </div>
 
-            <div class="w-4/5 md:w-full  mx-auto">
-              <div class="grid grid-cols-2 xl:grid-cols-3 gap-8 md:gap-4 xl:gap-x-4 xl:gap-y- mx-auto ">
-                <div class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/icons8-apple-logo-26.png" alt="Apple Icon" class="w-6 dark:filter-light ">
-                  <h3 class="text-md xl:text-lg">App Store</h3>
-                </div>
-
-                <div class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/apk.png" alt="APK Icon" class="w-6 dark:filter-light">
-                  <h3 class="text-md xl:text-lg">Android APK</h3>
-                </div>
-              
-                <div class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/google.png" alt="Google Icon" class="w-6 dark:filter-light">
-                  <h3 class="text-md xl:text-lg">Google Play</h3>
-                </div>
-
-                <div class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/mac.png" alt="Mac Icon" class="w-6 dark:filter-light">
-                  <h3 class="text-md xl:text-lg">Mac OS</h3>
-                </div>
-
-                <div class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/windows.png" alt="Windows Icon" class="w-6 dark:filter-light">
-                  <h3 class="text-md xl:text-lg">Windows</h3>
-                </div>
-
-                <div class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/linux.png" alt="Linux Icon" class="w-6 dark:filter-light">
-                  <h3 class="text-md xl:text-lg">Linux</h3>
-                </div>
-
-                <div class="flex  lg:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
-                  <img src="../img/api.png" alt="Api Icon" class="w-6 dark:filter-light">
-                  <h3 class="text-md xl:text-lg">API</h3>
-                </div>
-
-              </div>
-
+            <div class="flex flex-col space-y-2 justify-center items-start mx-auto md:mx-0">
+              <h4 class="text-sm text-gray-600 dark:text-white">Scan to Download</h4>
+              <p class="text-xs text-gray-400 dark:text-white">iOS & Android</p>
             </div>
           </div>
 
-        
-</div>
-     
-<div class="w-60 mx-auto md:mt-0 lg:mt-8">
-  <a href="https://www.binance.com/en/download" class="flex justify-center items-center space-x-1" id="cube">
-    <h4 class="text-sm text-gray-600 dark:text-white">More Download Options</h4>
-    <img src="../img/right.png" alt="Right" class="dark:filter-light">
-  </a>
-  
-</div>
+          <div class="w-4/5 md:w-full  mx-auto">
+            <div class="grid grid-cols-2 xl:grid-cols-3 gap-8 md:gap-4 xl:gap-x-4 xl:gap-y- mx-auto ">
+              <div
+                class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/icons8-apple-logo-26.png" alt="Apple Icon" class="w-6 dark:filter-light ">
+                <h3 class="text-md xl:text-lg">App Store</h3>
+              </div>
+
+              <div
+                class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/apk.png" alt="APK Icon" class="w-6 dark:filter-light">
+                <h3 class="text-md xl:text-lg">Android APK</h3>
+              </div>
+
+              <div
+                class="flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/google.png" alt="Google Icon" class="w-6 dark:filter-light">
+                <h3 class="text-md xl:text-lg">Google Play</h3>
+              </div>
+
+              <div
+                class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/mac.png" alt="Mac Icon" class="w-6 dark:filter-light">
+                <h3 class="text-md xl:text-lg">Mac OS</h3>
+              </div>
+
+              <div
+                class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/windows.png" alt="Windows Icon" class="w-6 dark:filter-light">
+                <h3 class="text-md xl:text-lg">Windows</h3>
+              </div>
+
+              <div
+                class="hidden xl:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/linux.png" alt="Linux Icon" class="w-6 dark:filter-light">
+                <h3 class="text-md xl:text-lg">Linux</h3>
+              </div>
+
+              <div
+                class="flex  lg:flex flex-col gap-2 justify-center items-center rounded-lg hover:bg-gray-100 p-2 transition-all">
+                <img src="../img/api.png" alt="Api Icon" class="w-6 dark:filter-light">
+                <h3 class="text-md xl:text-lg">API</h3>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+      <div class="w-60 mx-auto md:mt-0 lg:mt-8">
+        <a href="https://www.binance.com/en/download" class="flex justify-center items-center space-x-1" id="cube">
+          <h4 class="text-sm text-gray-600 dark:text-white">More Download Options</h4>
+          <img src="../img/right.png" alt="Right" class="dark:filter-light">
+        </a>
+
+      </div>
     </section>
   </main>
 
@@ -478,8 +496,8 @@
 
     const toggleDarkMode = () => {
       checkbox.checked
-      ? html.classList.add("dark")
-      : html.classList.remove("dark")
+        ? html.classList.add("dark")
+        : html.classList.remove("dark")
     }
 
     toggleDarkMode();
